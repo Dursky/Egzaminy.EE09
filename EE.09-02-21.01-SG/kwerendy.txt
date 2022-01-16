@@ -1,0 +1,4 @@
+kw1: SELECT imie, nazwisko FROM zawodnik WHERE id = 4;
+kw2: SELECT zespol, punkty, grupa FROM liga ORDER BY punkty DESC;
+kw3: SELECT zawodnik.id, zawodnik.nazwisko, pozycja.nazwa FROM zawodnik, pozycja WHERE  zawodnik.pozycja_id = pozycja.id AND zawodnik.id IN (3,5)
+kw4:

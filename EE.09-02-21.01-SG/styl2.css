@@ -1,0 +1,54 @@
+#baner{
+    color: white;
+    text-align: center;
+    height: 330px;
+}
+
+.blok-druzyna {
+    color: white;
+    text-align: center;
+    width: 170px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 15px ;
+}
+
+.blok-druzyna:hover {
+    color: black;
+    background-color: white;
+}
+
+#blok-glowny{
+    color: white;
+}
+
+#blok-lewy{
+    background-color: whitesmoke;
+    width: 30%;
+    text-align: center;
+    height: 150px;
+    float: left;
+}
+
+#blok-prawy { 
+    background-color: whitesmoke;
+    width: 70%;
+    height: 150px;
+    float: left;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: seagreen;
+}
+
+h3 {
+    text-align: center;
+    letter-spacing: 6px;
+    text-transform: capitalize;
+}
+
+#liga { 
+    display: flex;
+    flex-direction: row;
+}
